@@ -1,0 +1,10 @@
+[project]
+name = "tts-lab"
+version = "0.1.0"
+description = "Qwen3-TTS 기반 목소리 실험용 웹 UI"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "qwen-tts>=0.1.1",
+    "torch>=2.15.0",
+]
